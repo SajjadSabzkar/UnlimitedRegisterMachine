@@ -19,11 +19,12 @@ The registers are unlimited in the following two senses:
 ## Basic Instructions
 Name | Notation | Effect | Decription
 | --- | --- | --- | --- |
-Zero | Z(n) | 0 -> R_n | Replace the number in R_n by 0
-Successor | S(n) | r_n +1 -> R_n | Add 1 to the number in R_n
-Copy | C(m,n) | r_m -> R_n | Replace the number in R_n by number in R_m (leaving the one in R_m as it was)
-Jump | J(m,n,q) | rm = rn ? => q | if the number R_m and R_n are equal, go to instruction number q otherwise go to the next instruction
+Zero | Z(n) | 0 :arrow_right:  R<sub>n</sub> | Replace the number in R<sub>n</sub> by 0
+Successor | S(n) | r<sub>n</sub> +1 :arrow_right: R<sub>n</sub> | Add 1 to the number in R<sub>n</sub>
+Copy | C(m,n) | r<sub>m</sub> :arrow_right: r<sub>n</sub> | Replace the number in R<sub>n</sub> by number in R<sub>m</sub> (leaving the one in R<sub>m</sub> as it was)
+Jump | J(m,n,q) | r<sub>m</sub> = r<sub>n</sub> ? => q | if the number R<sub>m</sub> and R<sub>n</sub> are equal, go to instruction number q otherwise go to the next instruction
 
 > Basic instructions are also (and more commonly) known as commands, because the word's shorter and quicker to say.
 
 [Refrence Page ](https://proofwiki.org/wiki/Definition:Unlimited_Register_Machine)
+
