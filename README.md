@@ -26,5 +26,17 @@ Jump | J(m,n,q) | r<sub>m</sub> = r<sub>n</sub> ? => q | if the number R<sub>m</
 
 > Basic instructions are also (and more commonly) known as commands, because the word's shorter and quicker to say.
 
+##### Example 1. f(x, y) = x + y
+The program below computes the sum of two numbers. The inputs are two numbers found on the first two registers. When the program terminates the first register contains the sum.
+```
+1. J(1, 2, 5)
+2. S(0)
+3. S(2)
+4. J(1, 1, 1)
+```
+
+
+
 [Refrence Page ](https://proofwiki.org/wiki/Definition:Unlimited_Register_Machine)
+[Refrence Example](https://github.com/vclyde/URM#example-1-fx-y--x--y)
 
