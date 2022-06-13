@@ -13,8 +13,8 @@ The number held at any one time by a register is usually referred to by the corr
 
 The registers are unlimited in the following two senses:
 
-(1): Although a URM program may make use of only a finite number of registers, there is no actual upper bound on how many a particular program can actually use.
-(2): There is no upper bound on the size of the natural numbers that may be stored in any register.
+1.  Although a URM program may make use of only a finite number of registers, there is no actual upper bound on how many a particular program can actually use.
+2. There is no upper bound on the size of the natural numbers that may be stored in any register.
 
 ## Basic Instructions
 Name | Notation | Effect | Decription
